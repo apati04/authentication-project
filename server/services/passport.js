@@ -6,8 +6,8 @@ const ExtractJwt = require('passport-jwt').ExtractJwt;
 
 // set options for jwt strat
 const jwtOptions = {
-	jwtFromRequest: ExtractJwt.fromHeader('authorization');
-	secretOrKey: config.secret;
+	jwtFromRequest: ExtractJwt.fromHeader('authorization'),
+	secretOrKey: config.secret,
 };
 
 // create jwt strat
