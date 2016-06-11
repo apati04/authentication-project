@@ -40,8 +40,5 @@ exports.signup = function(req, res, next) {
 			// respond to req indicating the user was create
 			res.json({ token: tokenForUser(user)} );
 		});
-	})
-		
-	
-
+	});
 }
