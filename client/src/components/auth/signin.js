@@ -27,7 +27,6 @@ class Signin extends Component {
 					<label>Email:</label>
 					<input {...email} className="form-control" />
 				</fieldset>
-
 				<fieldset className="form-group">
 					<label>Password:</label>
 					<input {...password} type="password" className="form-control" />
